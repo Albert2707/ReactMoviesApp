@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500;600&family=Roboto:wght@500;700&family=Ubuntu:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-2 {
+    flex:2;
+}
+
+.links{
+    @apply border-2 p-2 rounded-lg border-white  md:hover:border-white md:border-transparent transition-all duration-500 
+}
